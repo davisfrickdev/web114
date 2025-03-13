@@ -1,0 +1,41 @@
+Instructions
+
+This week we'll be updating our Nightruder Pages.
+
+Make sure the page from last week is validated, and spell checked.
+
+Check your assignment last week for comments for HTML/CSS updates.
+
+If you haven't yet, make sure your site supports a mobile view option via either a media query, well-formatted liquid design (please check), or a/several content query(queries).
+
+Add your name and the current date at the top of every file as a comment.
+
+Publish the completed web page to the student web server in a folder named 'week-two' and post the URL to your web page here.
+
+Exercises (complete these JavaScript exercises in the same web page.  Use JavaScript comments to identify where you have completed each step.  Add scripts to just before the closing </body> element. )
+
+ 
+
+Your page should currently have an alert that delivers a message about Nightruder. Save that message string as a variable that can be changed named greeting.
+Change your alert to alert the variable greeting.
+Reassign the value of greeting to be a new message about Nightruder
+Since we'll using console.log() to test our work and deliver messages to ourselves, go ahead and log the new value of greeting to console.
+Create an adaptable boolean variable called readyToLaunch, and save a value to indicate the game is not ready for launch.
+Create two number values that can be changed called preorders with a value of 4538 and promoCopies at 22. Create a third variable with a constant value called retailPrice of 79
+console log a statement that will reflect the values of the variables in this sentence: "Nightruder has preorders preorders, looking at $retailPrice * (preorders - promoCopies) in sales."
+8.  Unrelated to Nightruder, but just for now: In the script, console.log each of these expressions (they are found at the end of the Type Conversions lesson) Make sure you understand these!  The + operator is the tricky one given it will NOT convert a string. Literally just console.log() each step individually and observe what it does to these values. This'll be a moment for reflection of how type conversion works.
+
+"" + 1 + 0 
+"" - 1 + 0 
+true + false 
+6 / "3" 
+"2" * "3" 
+4 + 5 + "px" 
+"$" + 4 + 5 
+"4" - 2 
+"4px" - 2 
+7 / 0 
+"  -9  " + 5 
+"  -9  " - 5 
+null + 1 
+undefined + 1
