@@ -1,0 +1,96 @@
+/* Davis Frick April 16 2025
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(43, 43, 43);
+    color: rgb(243, 250, 255);
+    margin-left: 10%;
+    font-family: 'OpenDyslexic', sans-serif; 
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Style for the hero section (h1 and main image) */
+.hero-section {
+    margin: 20px;
+    text-align: center; /* Center the h1 and image */
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hero-section img {
+    margin: 0 auto; /* Center the image */
+    display: block; /* Ensure proper centering */
+}
+
+/* Style for content sections */
+.content-section {
+    margin: 20px;
+}
+
+/* Use Flexbox to place text and image side by side */
+.content-row {
+    display: flex;
+    align-items: center; /* Vertically center the text and image */
+    gap: 20px; /* Space between text and image */
+}
+
+/* Style the text content */
+.text-content {
+    flex: 1; /* Take up available space */
+}
+
+/* Style the image content */
+.image-content {
+    flex: 1; /* Take up available space */
+    display: flex;
+    justify-content: flex-end; /* Align image to the right */
+}
+
+img {
+    max-width: 350px;
+    max-height: 350px;
+    display: block; /* Remove any unwanted spacing below the image */
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    font-family: 'OpenDyslexic', sans-serif;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .content-row {
+        flex-direction: column; /* Stack text and image on smaller screens */
+        text-align: center;
+    }
+
+    .image-content {
+        justify-content: center; /* Center the image on smaller screens */
+    }
+}
+
+.thematic {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header-single {
+    text-decoration: underline;
+}
